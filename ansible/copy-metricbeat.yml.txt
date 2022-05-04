@@ -1,0 +1,11 @@
+---
+- name: Ansible Copy from Local to Remote
+  hosts: webservers
+  become: true
+  tasks:
+
+    # Use copy module
+  - name: copying file with playbook
+    copy:
+      src: /etc/metricbeat/metricbeat-config.yml
+      dest: /etc/metricbeat/metricbeat.yml
