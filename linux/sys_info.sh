@@ -19,7 +19,7 @@ echo $ip
 echo -e "IP info:" >> $output
 echo -e "$ip \n" >> $output
 
-echo -e "\nexec File:" >> $output
+echo -e "\exec File:" >> $output
 echo $execs >> $output
 
 if [ -f $output ]
