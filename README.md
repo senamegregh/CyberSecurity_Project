@@ -10,4 +10,4 @@ The ansible folder contains YAML files which are installation files for the Jump
 filebeat-playbook.yml installs the Ansible server with the command ansible-playbook.
 metricbeat-playbook.yml installs the container for Web-1 and Web-2 with the command ansible-playbook.
 copy-filebeat.yml and copy-metricbeat.yml are respectively used to copy the configuration files, filebeat-config.yml and metricbeat-config.yml from the local machine (ansible) to Web-1 and Web-2.
-install-elk.yml installs the Elk-Server.
+install-elk.yml installs the container for the Elk-Server.
